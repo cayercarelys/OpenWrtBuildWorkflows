@@ -21,7 +21,7 @@
 #echo 'src-git-full routing https://git.openwrt.org/feed/routing.git;openwrt-22.03' >> feeds.conf.default
 #echo 'src-git-full telephony https://git.openwrt.org/feed/telephony.git;openwrt-22.03' >> feeds.conf.default
 echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main' >> feeds.conf.default
-echo 'src-git PWpackages https://github.com/xiaorouji/openwrt-passwall-packages.git;main' >> feeds.conf.default
+#echo 'src-git PWpackages https://github.com/xiaorouji/openwrt-passwall-packages.git;main' >> feeds.conf.default
 # # Replace a feed source with what you want:
 #sed '/feeds-name/'d feeds.conf.default
 #echo 'method feed-name path/URL' >> feeds.conf.default
